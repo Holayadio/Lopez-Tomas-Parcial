@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Interfaz Web CRUD</title>
+</head>
+<body>
+    <h1>Mis datos</h1>
+    <ul id="dataList"></ul>
+
+    <h2>Crear nuevo registro:</h2>
+    <input type="text" id="nameInput" placeholder="Nombre">
+    <input type="text" id="ageInput" placeholder="Edad">
+    <button onclick="createData()">Crear</button>
+
+    <h2>Actualizar registro:</h2>
+    <input type="text" id="updateIdInput" placeholder="ID">
+    <input type="text" id="updateNameInput" placeholder="Nuevo Nombre">
+    <input type="text" id="updateAgeInput" placeholder="Nueva Edad">
+    <button onclick="updateData()">Actualizar</button>
+
+    <h2>Borrar registro:</h2>
+    <input type="text" id="deleteIdInput" placeholder="ID">
+    <button onclick="deleteData()">Borrar</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
+

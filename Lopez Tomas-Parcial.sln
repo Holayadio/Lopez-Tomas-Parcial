@@ -5,6 +5,11 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lopez Tomas-Parcial", "Lopez Tomas-Parcial\Lopez Tomas-Parcial.csproj", "{46F142B8-B408-4691-9618-684BFFD8F26F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{09321C09-F64B-4D6A-BC1C-28368AE333DC}"
+	ProjectSection(SolutionItems) = preProject
+		main.js = main.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
